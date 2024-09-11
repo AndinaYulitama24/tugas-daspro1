@@ -1,1 +1,18 @@
+program pascal;
+uses crt;
 
+begin
+    clrscr;
+    writeln('Januari');
+    writeln('Febuari');
+    writeln('Maret');
+    writeln('April');
+    writeln('Mei');
+    writeln('Juni');
+    writeln('Juli');
+    writeln('Agustus');
+    writeln('September');
+    writeln('Oktober');
+    writeln('November');
+    writeln('Desember');
+end.
