@@ -1,1 +1,18 @@
+program pascal;
+uses crt;
+var
+    nama,nim,kom,alamat: string;
 
+Begin
+    clrscr;
+    write('Masukan Nama anda :');
+    readln(nama);
+    write('Masukan Nim anda :');
+    readln(nim);
+    write('Masukan Kom anda :');
+    readln(kom);
+    write('Masukan Alamat anda:');
+    readln(alamat);
+    writeln('Hallo,nama saya ',nama,', NIM saya ',nim,', saya di kom ',kom,', alamat saya di ',alamat,'. Salam kenal semua!');
+    
+end.
